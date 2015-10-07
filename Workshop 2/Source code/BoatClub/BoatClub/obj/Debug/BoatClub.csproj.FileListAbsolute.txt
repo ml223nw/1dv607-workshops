@@ -24,3 +24,9 @@ C:\Users\Mathias\Desktop\w2\Source code\BoatClub\BoatClub\obj\Debug\BoatClub.pdb
 C:\Users\Mathias\Desktop\w2\Source code\BoatClub\BoatClub\bin\Debug\BoatClub.exe
 C:\Users\Mathias\Desktop\w2\Source code\BoatClub\BoatClub\bin\Debug\BoatClub.pdb
 C:\Users\Mathias\Desktop\w2\Source code\BoatClub\BoatClub\obj\Debug\BoatClub.csprojResolveAssemblyReference.cache
+C:\Users\Mathias\Documents\GitHub\1dv607-workshops\Workshop 2\Source code\BoatClub\BoatClub\bin\Debug\BoatClub.exe.config
+C:\Users\Mathias\Documents\GitHub\1dv607-workshops\Workshop 2\Source code\BoatClub\BoatClub\obj\Debug\BoatClub.exe
+C:\Users\Mathias\Documents\GitHub\1dv607-workshops\Workshop 2\Source code\BoatClub\BoatClub\obj\Debug\BoatClub.pdb
+C:\Users\Mathias\Documents\GitHub\1dv607-workshops\Workshop 2\Source code\BoatClub\BoatClub\bin\Debug\BoatClub.exe
+C:\Users\Mathias\Documents\GitHub\1dv607-workshops\Workshop 2\Source code\BoatClub\BoatClub\bin\Debug\BoatClub.pdb
+C:\Users\Mathias\Documents\GitHub\1dv607-workshops\Workshop 2\Source code\BoatClub\BoatClub\obj\Debug\BoatClub.csprojResolveAssemblyReference.cache

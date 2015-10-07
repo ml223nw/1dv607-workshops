@@ -10,8 +10,8 @@ namespace BoatClub
     {
         static void Main(string[] args)
         {
-            BoatClub.Controller.Controller secretary = new BoatClub.Controller.Controller();
-            secretary.Run();
+            BoatClub.Controller.Controller controller = new BoatClub.Controller.Controller();
+            controller.Run();
         }
     }
 }
