@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="c453c530-6efa-4957-9d62-7cca90019d1a"
+  name="rules" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="550cd927-6beb-4715-ac7e-1afec083ec6b"
+        name="IHitStrategy"
+        isAbstract="false"
+        isLeaf="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="492378b3-11ad-411f-bcd3-9ad1862619d0"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b6aed26d-55aa-4a85-9c30-33d0600f8564">
+                <propertyInstance
+                  Id="2823b6ea-12fe-4f8b-bdf7-f295b8425b37"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f8d1188b-aa5b-47ea-a9d7-b07edd2990ba">
+                <propertyInstance
+                  Id="a8ba417f-c383-4e47-924e-0dd6b9923c0d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7e0148eb-940c-4495-a5f4-6680e499af81">
+                <propertyInstance
+                  Id="2e8df194-de29-4b17-90b8-07dd40e95bf7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c078dd63-e5f5-4d1d-963c-20e58739c70e">
+                <propertyInstance
+                  Id="00ea8fda-4bd9-468a-84e3-bdbead88759e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7f7945c2-00d1-4ff2-9261-fdd4e8156c06"
+        name="BasicHitStrategy"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="199da952-202f-4e8c-a29d-3fc357635b08"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5cbb988e-0ad0-45d5-9ae9-ec9080bdc7c5">
+                <propertyInstance
+                  Id="0215b9de-407d-4266-9222-b4aa79f7d2d8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8ef36e80-00d8-4fae-bf8a-abc42e69bb3a">
+                <propertyInstance
+                  Id="c9a5b395-3caa-4aac-ab11-ada7bca27697"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="66dd0590-64ca-4ba5-9053-3f504d32d3ee">
+                <propertyInstance
+                  Id="2d4a4560-ac67-45c2-a63a-f02a77cae10c"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6ff05a0e-7836-4896-bcec-9ffd35dae373">
+                <propertyInstance
+                  Id="2a2c57ed-3260-4a02-8d69-a88e9d234dde"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0e2f4746-a462-4cc2-aa70-b8fb745cfc5d">
+                <propertyInstance
+                  Id="46a1d040-8332-4476-84b1-60e06f4fc2ab"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="6bd48b2a-6321-4195-ad4a-e2230c8bf149">
+            <interfaceMoniker
+              Id="550cd927-6beb-4715-ac7e-1afec083ec6b"
+              LastKnownName="IHitStrategy"
+              LastKnownLocation="Package2_0950.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="7f7445a6-4eaf-4d4b-893c-5243754ba636"
+        name="INewGameStrategy"
+        isAbstract="false"
+        isLeaf="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="32f0e20e-ff23-4a77-a66d-4ae8808dcffc"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4d85fb12-e9df-4a0a-b6e7-4027d3786e9a">
+                <propertyInstance
+                  Id="9aed3650-e1e8-4d02-b030-677ffcf7749b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="232fcf49-fa5b-4d80-8058-40a9a6e746b1">
+                <propertyInstance
+                  Id="03f40604-359e-4fbb-b8bb-f92a74e665f0"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="667cdce4-4894-4bff-a128-2e91a1172050">
+                <propertyInstance
+                  Id="ddf979cf-08ec-4361-9776-e7809b7016c4"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2198c8f5-bcde-4e5b-ad3f-50a5e3d7e8b7">
+                <propertyInstance
+                  Id="f2b3c814-c188-443a-98ce-443b2e36454d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="626e626d-f1c8-4379-8b67-f1bfcca61c56"
+        name="AmericanNewGameStrategy"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c1254dba-2d91-4d4f-9ea9-9cef5dc415cc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="49e8ae36-e120-4cd2-90eb-2f229f410bfb">
+                <propertyInstance
+                  Id="ef38f0cc-180f-4941-9104-ef77da541734"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d0dc15be-b9fb-46b2-8d31-1bb4b1463111">
+                <propertyInstance
+                  Id="46429866-0ff7-4cf2-a175-26a18d3085aa"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0f1c93cb-2c30-43b1-83ad-fc5b31e45ac6">
+                <propertyInstance
+                  Id="0f1cbfac-d026-466b-ae07-385271724bef"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="522f912f-cd19-41ba-81b6-3db92954e3ba">
+                <propertyInstance
+                  Id="a26e4ac7-d07b-49c0-bca2-94b3278e9e86"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2ca86694-af6c-44d5-b4e5-d7bfd21c75a5">
+                <propertyInstance
+                  Id="148c9860-7478-4896-ac06-14c4e9fb57bf"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="86035386-85f5-4b4d-864e-36a192b1dc9b">
+            <interfaceMoniker
+              Id="7f7445a6-4eaf-4d4b-893c-5243754ba636"
+              LastKnownName="INewGameStrategy"
+              LastKnownLocation="Package2_0950.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1541902d-b83d-41c6-8d43-abb4d867a30d"
+        name="InternationalNewGameStrategy"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4989d90c-9751-4c0e-9ce9-710d6df81bd4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a890567e-5e6e-4133-931e-4fddc907145f">
+                <propertyInstance
+                  Id="071dcb14-c9de-4d8b-ad74-8557ebe41171"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="da9044fd-6966-461e-8ba4-d2ccd1c2b9d0">
+                <propertyInstance
+                  Id="e693d455-c0f8-4522-9416-b25dc1a51258"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cf62f6da-08d2-4fcd-89d1-1338354db38c">
+                <propertyInstance
+                  Id="8c577692-5439-4758-a69f-a8325ad4fdd7"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d76609e0-e650-41f8-acb5-59b8d73f4cb7">
+                <propertyInstance
+                  Id="dc03404d-8ce2-424f-9453-5412f44d203a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9d1abc36-8241-45d8-b4f6-00e6db1225e0">
+                <propertyInstance
+                  Id="ec49122f-1f76-45c0-8ab4-f285b916ac58"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="85e6fc98-3aea-44e0-8816-8ba246381186">
+            <interfaceMoniker
+              Id="7f7445a6-4eaf-4d4b-893c-5243754ba636"
+              LastKnownName="INewGameStrategy"
+              LastKnownLocation="Package2_0950.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="274aad89-4b81-46c6-a61d-54ff6d7a1d51"
+        name="RulesFactory"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e71996ce-50dc-4e77-9c79-11532a8cc50f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="24ecdd65-0ddd-4e47-a240-62315a1137b7">
+                <propertyInstance
+                  Id="a513d3f0-e2eb-4988-9c42-d13941e7d16f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5ad56f86-645d-499e-86da-1167f9181850">
+                <propertyInstance
+                  Id="35858cd0-d824-4d60-abcd-65483e341ddf"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eb023925-267a-48f7-8f3b-55adee177a38">
+                <propertyInstance
+                  Id="5f64bade-62f8-4408-b643-1d042fc14d18"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2fc465bd-6d8b-494c-ae37-6de283fbb949">
+                <propertyInstance
+                  Id="248f94c8-cf4e-4fe3-b7d6-0ec0e8b42714"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="890542e7-520b-4d61-9921-b5f635d03f83">
+                <propertyInstance
+                  Id="87faa872-97f5-43e0-924a-97e250ce64bb"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="27958c9f-a6cb-4929-8b7f-9af03d169ada">
+            <classMoniker
+              Id="1541902d-b83d-41c6-8d43-abb4d867a30d"
+              LastKnownName="InternationalNewGameStrategy"
+              LastKnownLocation="Package2_0950.uml" />
+          </dependency>
+          <dependency
+            Id="2aa7438f-adca-4f5b-b841-bf65d21ffa3e">
+            <classMoniker
+              Id="626e626d-f1c8-4379-8b67-f1bfcca61c56"
+              LastKnownName="AmericanNewGameStrategy"
+              LastKnownLocation="Package2_0950.uml" />
+          </dependency>
+          <dependency
+            Id="b84f68a1-bf94-4f25-968c-950ccefeeca8">
+            <classMoniker
+              Id="7f7945c2-00d1-4ff2-9261-fdd4e8156c06"
+              LastKnownName="BasicHitStrategy"
+              LastKnownLocation="Package2_0950.uml" />
+          </dependency>
+          <dependency
+            Id="c49bfc25-3069-4e4a-a768-6285819cc071">
+            <classMoniker
+              Id="9bcf8665-1b39-416a-a5cb-1d56609a0722"
+              LastKnownName="DealerWinsOnEqual"
+              LastKnownLocation="Package1_0950.uml" />
+          </dependency>
+          <dependency
+            Id="43989b6e-b894-448b-b5de-e655d1111682">
+            <classMoniker
+              Id="bdac47b3-3c42-4714-8e75-a858288dd4ea"
+              LastKnownName="PlayerWinsOnEqual"
+              LastKnownLocation="Package1_0950.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="da9e2c97-4e60-46ac-b78c-298ac7e14742"
+        name="Soft17HitStrategy"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="967185c0-8c3b-4efe-be93-74ddaf1ff671">
+            <interfaceMoniker
+              Id="550cd927-6beb-4715-ac7e-1afec083ec6b"
+              LastKnownName="IHitStrategy"
+              LastKnownLocation="Package2_0950.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

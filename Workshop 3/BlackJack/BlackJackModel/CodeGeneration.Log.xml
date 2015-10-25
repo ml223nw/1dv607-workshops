@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///D:/PROGRAM/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2015-10-25T22:31:13" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2015-10-25T22:31:14" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2015-10-25T22:31:14" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2015-10-25T22:31:14" Importance="Diagnostic" Text="ProjectPath = ..\BlackJackModelLib\BlackJackModelLib.csproj" />
+  <Message Timestamp="2015-10-25T22:31:14" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2015-10-25T22:31:14" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2015-10-25T22:31:14" Importance="Diagnostic" Text="TemplateFilePath = D:\PROGRAM\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2015-10-25T22:31:14" Importance="Diagnostic" Text="ResolvedTemplateFilePath = D:\PROGRAM\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2015-10-25T22:31:14" Importance="Medium" Text="BlackJackModel's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'BlackJackModel::view::SimpleView' -  (Class), 'BlackJackModel::view::SwedishView' -  (Class), 'BlackJackModel::controller::PlayGame' -  (Class), 'BlackJackModel::model::Card' -  (Class), 'BlackJackModel::model::Deck' -  (Class), 'BlackJackModel::model::Player' -  (Class), 'BlackJackModel::model::Game' -  (Class), 'BlackJackModel::model::Dealer' -  (Class), 'BlackJackModel::model::rules::BasicHitStrategy' -  (Class), 'BlackJackModel::model::rules::AmericanNewGameStrategy' -  (Class), 'BlackJackModel::model::rules::InternationalNewGameStrategy' -  (Class), 'BlackJackModel::model::rules::RulesFactory' -  (Class) " />
+  <Message Timestamp="2015-10-25T22:31:17" Importance="Medium" Text="Project Added: C:\Users\Mathias\Desktop\BlackJack\BlackJackModelLib\BlackJackModelLib.csproj" />
+  <Message Timestamp="2015-10-25T22:31:17" Importance="Medium" Text="'BlackJackModel::view::SimpleView' -  (Class) : success (file created) - C:\Users\Mathias\Desktop\BlackJack\BlackJackModelLib\GeneratedCode\view\SimpleView.cs" />
+  <Message Timestamp="2015-10-25T22:31:17" Importance="High" Text="Code generation process has been canceled." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="The selection included 38 elements which were not bound to a template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::view::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::view' -  (Package): no bound template." />
+  <Warning Timestamp="2015-10-25T22:31:18" Importance="Medium" Text="'BlackJackModel::view::IView' -  (Interface): no bound template." />
+  <Warning Timestamp="2015-10-25T22:31:18" Importance="Medium" Text="'BlackJackModel::view::SwedishView' -  (Class): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::view::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::view::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::controller::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::model::' -  (Association): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::model::' -  (Association): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::model::' -  (Association): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'ac1117b4-835a-4415-975b-8037a0a5954f' -  (Generalization): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::model::' -  (Association): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::model::' -  (Association): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::controller::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::controller' -  (Package): no bound template." />
+  <Warning Timestamp="2015-10-25T22:31:18" Importance="Medium" Text="'BlackJackModel::controller::PlayGame' -  (Class): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::model::rules::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::model::' -  (Association): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::model::' -  (Association): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::model::rules::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::model::rules::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::model::rules::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::model::rules::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::model::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::model' -  (Package): no bound template." />
+  <Warning Timestamp="2015-10-25T22:31:18" Importance="Medium" Text="'BlackJackModel::model::Card' -  (Class): no bound template." />
+  <Warning Timestamp="2015-10-25T22:31:18" Importance="Medium" Text="'BlackJackModel::model::Deck' -  (Class): no bound template." />
+  <Warning Timestamp="2015-10-25T22:31:18" Importance="Medium" Text="'BlackJackModel::model::Player' -  (Class): no bound template." />
+  <Warning Timestamp="2015-10-25T22:31:18" Importance="Medium" Text="'BlackJackModel::model::Game' -  (Class): no bound template." />
+  <Warning Timestamp="2015-10-25T22:31:18" Importance="Medium" Text="'BlackJackModel::model::Dealer' -  (Class): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::model::rules' -  (Package): no bound template." />
+  <Warning Timestamp="2015-10-25T22:31:18" Importance="Medium" Text="'BlackJackModel::model::rules::IHitStrategy' -  (Interface): no bound template." />
+  <Warning Timestamp="2015-10-25T22:31:18" Importance="Medium" Text="'BlackJackModel::model::rules::BasicHitStrategy' -  (Class): no bound template." />
+  <Warning Timestamp="2015-10-25T22:31:18" Importance="Medium" Text="'BlackJackModel::model::rules::AmericanNewGameStrategy' -  (Class): no bound template." />
+  <Warning Timestamp="2015-10-25T22:31:18" Importance="Medium" Text="'BlackJackModel::model::rules::INewGameStrategy' -  (Interface): no bound template." />
+  <Warning Timestamp="2015-10-25T22:31:18" Importance="Medium" Text="'BlackJackModel::model::rules::InternationalNewGameStrategy' -  (Class): no bound template." />
+  <Warning Timestamp="2015-10-25T22:31:18" Importance="Medium" Text="'BlackJackModel::model::rules::RulesFactory' -  (Class): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="Diagnostic" Text="'BlackJackModel::model::rules::' -  (Dependency): no bound template." />
+  <Message Timestamp="2015-10-25T22:31:18" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 14." />
+</Log>
